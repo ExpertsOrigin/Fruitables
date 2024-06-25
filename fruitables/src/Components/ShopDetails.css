@@ -1,0 +1,141 @@
+.detailsouter{
+    border: 2px solid red;
+    height: 1450px;
+    display: flex;
+    margin-top: 60px;
+    width: 1500px;
+}
+
+.brocolidetails{
+    border: 2px solid red;
+    width: 855px;
+    margin-left: 110px;
+    /* display: flex; */
+}
+.product{
+    display: flex;
+}
+.brocolidetails img{
+    width: 400px;
+}
+
+#descriptiontable{
+    border: 2px solid red;
+    width: 500px;
+ 
+float: left;
+}
+.peterh3{
+    display: inline;
+}
+.reviewbtn{
+    /* border: 2px solid red; */
+    width: 150px;
+    margin-top: 30px;
+    border: none;
+    margin-left: 5px;
+}
+.petericon{
+width: 120px;
+border: 2px solid red;
+float: right;
+}
+.colitext{
+    /* border: 2px solid red; */
+    width: 420px;
+    margin-left: 30px;
+}
+.colitext button{
+    border: 2px solid gray;
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    border-color: orange;
+}
+
+.detailsidebar{
+    border: 2px solid red;
+    /* width: 200px; */
+}
+
+/* 
+.reviewimg{
+    display: inline;
+    border: 2px solid red;
+   
+} */
+
+.reply textarea{
+    display: block;
+    width: 850px;
+    height: 200px;
+    border-radius: 10px;
+    margin-bottom: 35px;
+}
+#text2{
+    margin-left: 10px;
+    
+}
+
+.reply input{
+    width: 400px;
+    height: 40px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    border-radius: 10px;
+    
+
+}
+
+.reply button{
+    padding-right: 20px;
+    padding-left: 20px;
+    height: 45px;
+    float: right;
+    
+    border-radius: 30px;
+}
+
+
+.shopcards{
+    /* border: 2px solid gray; */
+    height: 500px;
+    width: 1300px;
+    margin: 40px auto;
+    justify-content: space-around;
+    display: flex;
+}
+
+
+.shopcardsdetails{
+    border: 1px solid orange;
+    border-radius: 10px;
+    width: 303px;
+}
+
+.shopcardsdetails img{
+    width: 300px;
+    border-radius: 10px;
+
+}
+
+#i1h2{
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.shopcardsdetails button{
+    margin-left: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 40px;
+    border-radius: 30px;
+}
+.shocardsp{
+    margin-left: 15px;
+}
+
+.showh2{
+    margin-left: 15px;
+    margin-top: 10px;
+}

@@ -1,0 +1,142 @@
+/* @@@@@@  section = table  @@@@@@@ */
+*{
+    margin: 0px ;
+    padding: 0px ;
+}
+
+/* @@@@@@@  Section = one   @@@@@@@@ */
+.header {
+    background-image: url("./cart-page-header-img.jpg");
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    line-height: 0.4;
+    padding-top: 10px;
+
+
+}
+
+.headerh1 {
+    font-size: 40px;
+    color: white;
+}
+
+#headerp {
+    color: white;
+    text-decoration: none;
+}
+
+#headerp a {
+    text-decoration: none;
+    color: #81C408;
+}
+
+
+.cartmain{
+    /* border: 2px solid red; */
+    margin-top: 60px;
+}
+
+.table{
+    /* border: 2px solid red; */
+    height: 500px;
+}
+table{
+    /* border: 2px solid red; */
+    width: 85%;
+    border-collapse: collapse;
+    margin: 0px auto;
+}
+td,th{
+    /* border: 1px solid brown; */
+        text-align: left;
+        /* padding: 20px; */
+        padding-top:10px ;
+        /* padding-bottom: ; */
+        padding-right:10px ;
+        padding-left:10px ;
+       
+       
+}
+tr img{
+    width: 85px;
+    line-height: 0;
+    border-radius: 30px;
+}
+tr button{
+    /* border: 2px solid red; */
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    /* color: red; */
+    border: none;
+   
+}
+thead{
+    /* border: 2px solid red; */
+    /* border-bottom: 2px solid gray; */
+    line-height: 2;
+    opacity: 0.6;
+}
+
+/* @@@@@@  section = carttotal  @@@@@@@ */
+
+.cartcoupon{
+    /* border: 2px solid gray; */
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.pagescart{
+    /* border: 2px solid red; */
+    margin-right: 120px;
+    border-radius: 20px;
+   width: 490px;
+    padding: 20px;
+    background-color: #F4F6F8;
+    
+    height: 400px;
+}
+.carttext{
+    /* border: 2px solid red; */
+    margin-left: 60px;
+    padding-left: 40px;
+    font-size: 15px;
+   width: 40%;
+    float: right;
+    
+
+}
+.totalh3{
+    /* border: 2px solid red; */
+    line-height: 2;
+    margin-bottom: 50px;
+}
+
+.pagescart button{
+    border: 2px solid gray;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 55px;
+    border-radius: 30px;
+    border-color: orange;
+}
+
+.coupon input{
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    margin-left: 120px;
+    border: none;
+    border-bottom: 2px solid gray;
+    padding-left: 20px;
+}
+.coupon button{
+    border: 2px solid gray;
+    height: 50px;
+padding-left: 15px;
+border-radius: 30px;
+padding-right: 15px;
+border-color: orange;
+}

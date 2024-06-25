@@ -1,0 +1,639 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Raleway,sans-serif;
+}
+
+/* @@@@@@@@   Section = one     @@@@@@@@ */
+
+.one{
+    background-image: url("hero-img.jpg");
+    height: 450px;
+    /* border: 2px solid red; */
+    background-size: cover;
+    display: flex;
+    line-height: 1.3;
+
+}
+#onetexth5{
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+.onetext{
+    /* border: 2px solid red; */
+    width: 700px;
+    margin-left: 110px;
+    padding-top: 4px; 
+}
+.onetext button {
+    border-radius: 30px;
+    background-color: #83b807;
+    width: 150px;
+    height: 52px;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    right: 150px;
+    border-color: orange;
+    
+
+}
+.onetext input{
+    width: 75%;
+    height: 51px;
+    border-radius:50px;
+    border-color: orange;
+    margin-top: 40px;
+    
+}
+.onetext h5{
+    color: orange;
+    font-size: 24px;
+    /* padding-top: 30px; */
+    /* border: 2px solid red; */
+    position: relative;
+    top: 30px;
+    bottom: 90px;
+}
+#oneh1{
+    font-size: 60px;
+    color: #81C408;   
+    font-weight: 790;   
+}
+.oneimg img{
+    width: 80%;
+    /* border: 2px solid red; */
+    margin-left: 60px;
+    margin-top: 55px;
+    background-color: orange;
+    border-radius: 9px;
+}
+
+.sectioncarosel{
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.mycarosel{
+    /* width: 500px; */
+    margin-top: 30px;
+    height: 350px;
+    border-radius: 30px;
+/* border: 2px solid red; */
+
+
+}
+.caroselmyimage{
+    border-radius: 30px;
+    height: 350px;
+}
+
+
+
+
+/* @@@@@@@  Section = two   @@@@@@@@ */
+
+.two{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    margin: 120px auto;
+    width: 95%;
+    height: 250px;
+   
+}
+.twoin{
+    /* border: 2px solid gray; */
+    width: 20%;
+    margin-left: 0px;
+    text-align: center;
+    background-color: #F4F6F8;
+  
+}
+
+.twoinicon{
+    /* border: 2px solid gray; */
+    width: 110px;
+    height: 110px;
+    border-radius: 100px;
+    margin:0px auto;
+    background-color: orange;
+    margin-top: 20px;
+    
+}
+.twoinicon i{
+    color: white;
+    font-size: 47px;
+    margin-top: 26%;
+}
+
+/* @@@@@@@  Section = three   @@@@@@@@ */
+
+.three{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 1400px;
+    margin: 10px auto;
+    padding-top: 30px;
+}
+
+.threein1{
+    /* border: 2px solid black; */
+    display: flex;
+    /* margin-bottom: 20px; */
+    margin: 30px auto;
+    
+    width: 1400px;
+}
+#threeinh1{
+    /* border: 2px solid gray; */
+    width: 450px;
+    font-size: 25px;
+    padding-left: 49px;
+    /* margin: 0px auto; */
+
+}
+#threein-button{
+    /* border: 2px solid gray; */
+    width: 800px;
+    /* align-items: center; */
+    display: flex;
+    margin-left: 130px;
+
+    
+}
+
+
+
+.threein2{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    width: 1325px;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+
+.cards{
+    border: 1px solid orange;
+    text-align: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 310px;
+    /* height: 400px; */
+    line-height: 1.8;
+}
+.cards:hover{
+    /* box-shadow: right bottom opacity opacity length ; */
+    box-shadow:  1px 1px 18px 5px #888888;
+}
+#threein-button button{
+    width: 120px;
+    border-radius: 30px;
+    height: 45px;
+    background-color: orange ;
+    color:white;
+    
+    font-size: 14px;
+    opacity: 0.8;
+    margin:0px auto;
+    border: none;
+}
+.three img{
+    width: 309px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    margin: 0px auto;
+}
+
+.zoom{
+
+/* border: 2px solid red; */
+    /* transition: transform .2s; */
+    width: 310px;
+    height: 220px;
+    
+}
+
+.zoom img{
+    transition: all 0.5s ease 0s;
+  }
+
+.cards{
+    margin-left: 10px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    
+}
+.cardsp{
+    /* border: 2px solid red; */
+    width: 256px;
+    margin: 0px auto;
+    font-size: 17px;
+    opacity: 0.6;
+    line-height: 1.3;
+}
+.cards button{
+    width: 130px;
+    height: 40px;
+    border-radius: 30px;
+    color: #81C408;
+    border-color: orange;
+}
+.cards button{
+   margin-top: 18px;
+   margin-left: 10px;
+}
+.price{
+    /* position: relative; */
+    display: inline;
+        right: 65px;
+        bottom: 10px;
+    }
+
+/* @@@@@@@  Section = four   @@@@@@@@ */
+
+.four{
+    /* border: 2px solid red; */
+    width: 1320px;
+margin-left: 100px;
+margin-bottom: 50px;
+margin-top: 50px;
+    /* margin: 60px auto; */
+}
+.four-cards{
+    /* border: 2px solid gray; */
+    display: flex;
+    margin: 0px auto;
+    /* justify-content: space-evenly; */
+    width: 1300px;
+    
+}
+.fourimg{
+    border: 2px solid orange;
+    border-top-left-radius:20px ;
+    border-top-right-radius:20px ;
+    width: 700px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    
+}
+#strawberry{
+    margin-left: 49px ;
+}
+#discount{
+    margin-left: 49px;
+}
+.fourimg img{
+    width: 100%;
+    border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+}
+.empty1{
+    /* border: 2px solid red; */
+    background-color: #FFB524;
+    height: 130px;
+    border-bottom-left-radius: 18px;
+        border-bottom-right-radius: 18px;
+}
+.empty2{
+    /* border: 2px solid red; */
+    background-color: #45595B;
+    height: 130px;
+    border-bottom-left-radius: 18px;
+        border-bottom-right-radius: 18px;
+}
+.empty3{
+    /* border: 2px solid red; */
+    background-color: #81C408;
+    height: 130px;
+    border-bottom-left-radius: 18px;
+        border-bottom-right-radius: 18px;
+        
+}
+.empty1-text{
+    text-align: center;
+    padding-top: 2px;
+    width: 200px;
+    height: 120px;
+    position: relative;
+    margin: 0px auto;
+    bottom:60px;
+    border-radius: 15px;
+    padding-top: 10px;
+    
+}
+#freshapple{
+    background-color:#81C408 ;
+}
+#tasty{
+    background-color: white;
+}
+#exotic{
+    background-color: #FFB524;
+}
+
+#emptyh2{
+    font-size: 25px;
+}
+
+/* @@@@@@@ Section = five @@@@@@@@ */ 
+
+.five{
+    /* border: 2px solid red; */
+    /* margin-top: 100px; */
+    width: 1320px;
+    margin: 0px auto;
+
+    
+}
+.fivein{
+    display: flex;
+justify-content: space-evenly;
+}
+
+.fresh{
+    border: 2px solid orange;
+    width: 320px;
+    border-radius: 10px;
+   
+}
+.fresh img{
+    width: 100%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    
+}
+.fiveh1{
+    font-size: 38px;
+    margin-left: 4px;
+    margin-bottom: 60px;
+    opacity: 0.7;
+    font-weight: 540;
+}
+.freshp{
+margin-left: 20px;
+line-height: 1.5;
+}
+.freshh2{
+    margin-left: 20px;
+}
+.freshprice{
+    margin-left: 20px;
+    display: inline;
+}
+.fresh button{
+    width: 150px;
+    height: 45px;
+    border-radius: 30px;
+    color: #81C408;
+    border-color: orange;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* @@@@@@@ Section = six @@@@@@@@ */
+
+.six{
+    /* border: 2px solid red; */
+    background-color: #FFB524;
+    display: flex;
+    margin-top: 130px;
+}
+
+#sixtext{
+    /* border: 2px solid red; */
+   
+    width: 39%;
+    margin-left: 100px;
+}
+#sixh1{
+    font-size: 55px;
+    font-weight: 800;
+    color: white;
+    margin-top: 95px;
+}
+#sixh2{
+    font-size: 57px;
+    font-weight: 100;
+    color:#45595B;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#sixtext button{
+    width: 120px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #FFB524;
+    border-color: white;
+    margin-top: 30px;
+}
+#siximg img{
+    margin-left: 50px;
+}
+
+
+/* @@@@@@@ Section = seven @@@@@@@@ */
+
+.seven{
+    /* border: 2px solid red; */
+    /* margin-top: 120px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-top: 70px;
+    margin-bottom: 100px; */
+    margin: 50px auto;
+    width: 1320px;
+    
+    
+}
+#seven_p{
+    /* border: 2px solid red; */
+    width: 50%;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+#sevenh1{
+    /* border: 2px solid red; */
+    width: 50%;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 800;
+    color: #45595B;
+}
+.upperseven{
+    /* border: 2px solid gray; */
+    display: flex;
+    flex-wrap: wrap;
+    height: 480px;
+    justify-content: space-evenly;    
+    width:1330px;
+}
+.tomato{
+    /* border: 2px solid red; */
+    display: flex;
+    height: 220px;
+    width: 430px;
+    align-items: center;
+    font-size: 25px;
+    background-color: #F4F6F8;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+.tomato img{
+    width: 140px;
+    border-radius: 100px;
+    height: 130px;
+    margin-left: 10px;
+    
+}
+.seventext{
+    /* border: 2px solid red; */
+    
+    margin:0px auto;
+}
+#blackstar{
+   color: darkgray;
+}
+
+.lowerfour{
+    /* border: 2px solid red; */
+    display: flex;
+    /* width: 90; */
+    justify-content: space-between;
+    margin-top: 60px;
+}
+.lowertomato{
+    /* border: 2px solid gray; */
+    width: 24%;
+    height: 420px;
+    text-align: center;
+    line-height: 2;
+}
+.lowertomato img{
+    width: 100%;
+    border-radius: 15px;
+}
+.fa-star{
+    color: #81C408;
+    font-size: 15px;
+}
+.fa-lock{
+    color: #81C408;
+}
+
+.lowertomato button{
+    width: 50%;
+    height: 40px;
+    border-radius: 30px;
+    border-color: orange;
+    font-size: 15px;
+    color: #81C408;
+}
+.lowertomatoh4{
+        font-size: 25px;
+}
+.upperseven button{
+    width: 120px;
+    height:60px ;
+    font-size: 15px;
+    padding: 0px 20px;
+    line-height: 1.3;
+    border-radius: 30px;
+    color: #81C408;
+    border-color: orange;
+}
+
+
+
+
+/* @@@@@@@ Section = eight @@@@@@@@ */
+
+.eight{
+    /* border: 2px solid red; */
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    background-color: #EEF0F2;
+    margin: 0px auto;
+    height: 350px;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.eightin{
+    /* border: 2px solid red; */
+    width: 250px;
+    text-align: center;
+    padding-top: 50px;
+    height: 220px;
+    background-color: white;
+    border-radius: 10px;
+    /* line-height: 1.8; */
+}
+
+.eightp{
+    font-size: 25px;
+    color:#81C408 ;
+    font-weight: 100;
+}
+.eighth2{
+    font-size: 35px;
+    margin-top: 15px;
+    font-weight: 100;
+}
+.fa-user-group{
+    font-size: 60px;
+    color: #FFB524;
+    margin-bottom: 30px;
+}
+
+
+/* @@@@@@@ Section = nine @@@@@@@@ */
+
+.nine{
+    /* border: 2px solid red; */
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 180px;
+    
+}
+.clients{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-evenly;
+    width: 1200px;
+}
+.clients img{
+    width: 900px;
+    position: relative;
+    right:17px ;
+}
+#testimonial{
+    font-size: 25px;
+    color:#81C408 ;
+    font-weight: 100;
+
+}
+#saying{
+    font-size: 46px;
+    font-weight: bold;
+    margin-top: 10px;
+}

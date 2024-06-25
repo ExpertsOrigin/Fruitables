@@ -1,0 +1,48 @@
+.slider{
+    /* border: 2px solid red; */
+    display: flex;
+    /* width: ; */
+padding-right: 50px;
+margin-top: 30px;
+}
+.slider img{
+width: 50%;
+}
+#testh1{
+    font-size:50px ;
+    text-align: center;
+  line-height: 1.5;
+}
+#testh2{
+    text-align: center;
+    font-size: 28px;
+}
+
+
+/* @@@@@@@  Section = one   @@@@@@@@ */
+.header {
+    background-image: url("./cart-page-header-img.jpg");
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    line-height: 0.4;
+    padding-top: 10px;
+
+
+}
+
+.headerh1 {
+    font-size: 40px;
+    color: white;
+    margin-top: 10px;
+}
+
+#headerp {
+    color: white;
+    text-decoration: none;
+}
+
+#headerp a {
+    text-decoration: none;
+    color: #81C408;
+}

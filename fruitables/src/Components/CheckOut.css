@@ -1,0 +1,195 @@
+
+
+/* @@@@@@@  Section = one   @@@@@@@@ */
+.header {
+    background-image: url("./cart-page-header-img.jpg");
+    width: 100%;
+    height: 130px;
+    text-align: center;
+    line-height: 0.4;
+    padding-top: 10px;
+
+
+}
+
+.headerh1 {
+    font-size: 40px;
+    color: white;
+}
+
+#headerp {
+    color: white;
+    text-decoration: none;
+}
+
+#headerp a {
+    text-decoration: none;
+    color: #81C408;
+}
+
+.main{
+    border: 2px solid red;
+    
+    display: flex;
+    height: 1270px;
+    width: 1350px;
+    margin: 80px auto;
+
+}
+.inner1{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 910px;
+}
+.inner2{
+    /* border: 2px solid red; */
+    width: 50%;
+    height: 1500px;
+}
+#innerfine{
+    display: flex;
+    flex-wrap: wrap;
+    height: 910px;
+}
+
+
+.billing{
+    /* border: 2px solid red; */
+    height: 910px;
+    margin-left: 30px;
+    opacity: 0.6;
+
+   
+}
+#billingh1{
+    font-size: 35px;
+    font-size: 40px;
+}   
+.billingform{
+    line-height: 2.5;
+}
+.billingform textarea{
+    width: 99%;
+    height: 250px;
+    border-radius: 8px;
+   
+}
+.inputs{
+    width: 650px;
+    height: 40px;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+.names{
+    width: 47%;
+    
+}
+.checkboxes{
+    margin:15px auto;
+}
+
+
+#lastlabel{
+    position: relative;
+    left: 270px;
+}
+.firstname{
+    width: 320px;
+    height:40px ;
+    border-radius: 10px;
+    opacity: 0.5;
+
+}
+#lastinput{
+    position: relative;
+    left:20px;
+    height: 40px;
+    border-radius: 10px;
+    opacity: 0.5;
+}
+
+
+
+
+.banking{
+    /* border: 2px solid red; */
+    width: 85%;
+    height: 600px;
+    margin-left: 48px;
+    
+}
+.bankp{
+    line-height: 5;
+    font-size: 17px;
+}
+#directbank{
+    font-size: 15;
+    line-height: 1.2;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    
+}
+#subtotal{
+ 
+    text-align: right;
+}
+#total{
+    text-align: right;
+}
+
+.banking button{
+    width: 95%;
+    height: 50px;
+    border-radius: 10px;
+    border-color: orange;
+    margin-top: 20px;
+}
+
+.table {
+    /* border: 2px solid red; */
+    height: 420px;
+    width: 100%;
+    float: right;
+
+    
+}
+
+
+td,th {
+  
+    text-align: left;
+    padding: 20px;
+    padding-top: 15px;
+    
+    padding-right: 15px;
+    padding-left: 16px;
+    
+
+
+}
+
+tr img {
+    width: 85px;
+    line-height: 0;
+    border-radius: 30px;
+}
+
+tr button {
+    
+    width: 40px;
+    height: 40px;
+    border-radius: 30px;
+    color: red;
+    border: none;
+
+}
+
+thead {
+    /* border: 2px solid red; */
+    border-bottom: 2px solid gray;
+    line-height: 3;
+    opacity: 0.6;
+}
+tr{
+    border-bottom: 2px solid rgb(227, 226, 226);
+}
